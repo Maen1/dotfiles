@@ -22,7 +22,7 @@ require('lualine').setup({
       'branch',
       'diff',
       separator,
-      '"🖧  " .. tostring(#vim.tbl_keys(vim.lsp.buf_get_clients()))',
+      '" ❖ " .. tostring(#vim.tbl_keys(vim.lsp.buf_get_clients()))',
       { 'diagnostics', sources = { 'nvim_diagnostic' } },
       separator,
     },
