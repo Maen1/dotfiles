@@ -31,6 +31,9 @@ require('lspconfig').jsonls.setup({
   },
 })
 
+require('lspconfig').clangd.setup({
+    capabilities = capabilities
+  });
 -- null-ls
 require('null-ls').setup({
   sources = {
